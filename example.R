@@ -5,7 +5,7 @@ library(resample)
 source("code/example_utils.R") 
 
 # read in data
-dat <- read_sas("/Users/jkedwar/OneDrive - University of North Carolina at Chapel Hill/data/CBHIPP/deidc1june2017.sas7bdat")
+dat <- placeholder # input data here 
 
 esdat <- dat %>% 
   mutate(male = ifelse(c14 == 1, 1, 
